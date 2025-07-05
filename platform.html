@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The TNP Platform | Augmented Intelligence Forge</title>
+    <meta name="description" content="Explore the enterprise-grade architecture of TheNewsPublisher: a modular, AI-powered content automation platform built for scalability and resilience.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-white text-gray-800">
+
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div>
+                <a href="index.html" class="text-2xl font-bold text-gray-900">TheNewsPublisher</a>
+            </div>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="solutions.html" class="text-gray-600 hover:text-blue-600">Solutions</a>
+                <a href="platform.html" class="text-blue-600 font-semibold">Platform</a>
+                <a href="portfolio.html" class="text-gray-600 hover:text-blue-600">Portfolio</a>
+                <a href="about.html" class="text-gray-600 hover:text-blue-600">Our Story</a>
+            </div>
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-900 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg">
+            <a href="solutions.html" class="block py-3 px-6 text-base hover:bg-gray-100">Solutions</a>
+            <a href="platform.html" class="block py-3 px-6 text-base bg-blue-50 text-blue-600 font-semibold">Platform</a>
+            <a href="portfolio.html" class="block py-3 px-6 text-base hover:bg-gray-100">Our Portfolio</a>
+            <a href="about.html" class="block py-3 px-6 text-base hover:bg-gray-100">Our Story</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="bg-gray-50 py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900">An Enterprise-Grade Platform, Built to Last.</h1>
+                <p class="mt-4 text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">TheNewsPublisher was architected with a clean separation of concerns, providing a resilient and extensible foundation for a new generation of media products.</p>
+            </div>
+        </section>
+
+        <section class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl font-bold text-gray-900">The Core Content Pipeline</h2>
+                    <p class="mt-2 text-lg text-gray-600">Our entire system is built around a modular, four-stage content flow. </p>
+                </div>
+                <div class="grid md:grid-cols-4 gap-8 text-center">
+                    <div class="bg-white p-6 rounded-lg">
+                        <h3 class="text-xl font-bold mb-2">1. Acquire</h3>
+                        <p class="text-gray-600">Fetch content from any source using extensible providers for news APIs, RSS feeds, or internal CMS hubs.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg">
+                        <h3 class="text-xl font-bold mb-2">2. Process</h3>
+                        <p class="text-gray-600">Apply granular, rule-based quality filters and deduplication logic to ensure content hygiene before enhancement.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg">
+                        <h3 class="text-xl font-bold mb-2">3. Enrich</h3>
+                        <p class="text-gray-600">Leverage our proprietary `aiContext` engine to apply nuanced, values-driven AI enhancements like summaries and perspective analysis.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg">
+                        <h3 class="text-xl font-bold mb-2">4. Publish</h3>
+                        <p class="text-gray-600">Distribute the final, enriched content to multiple target publications via platform-agnostic CMS adapters.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-gray-50 py-20">
+            <div class="container mx-auto px-6">
+                 <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-gray-900">Key Architectural Pillars</h2>
+                    <p class="mt-2 text-lg text-gray-600">Our platform is built on principles that ensure scalability, flexibility, and reliability.</p>
+                </div>
+                <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="font-bold text-lg">Multi-Publication Architecture</h3>
+                        <p class="text-gray-600 mt-2">The platform was designed from day one to manage dozens of distinct publications from a single, centralized engine, ensuring operational efficiency and consistency. </p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="font-bold text-lg">Configuration-Driven Design</h3>
+                        <p class="text-gray-600 mt-2">Every publication, acquisition job, and AI rule is defined by simple configuration files, not hard-coded logic. This allows for rapid deployment and easy maintenance. </p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="font-bold text-lg">Values-Driven AI Curation</h3>
+                        <p class="text-gray-600 mt-2">Our `aiContext` framework allows each publication to "teach" the AI its unique editorial values, mission, and content restrictions, enabling truly intelligent curation. </p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="font-bold text-lg">Human-in-the-Loop Workflow</h3>
+                        <p class="text-gray-600 mt-2">Automation is a tool, not a replacement for wisdom. Our system has clear workflows for human review and approval, combining machine efficiency with expert oversight.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-gray-400">&copy; 2025 Augmented Intelligence Forge, LLC. <br class="sm:hidden"> `TheNewsPublisher.com` is a platform by <a href="http://aif.llc" target="_blank" class="underline hover:text-blue-400">AIF</a>.</p>
+        </div>
+    </footer>
+
+    <script src="main.js" defer></script>
+</body>
+</html>
